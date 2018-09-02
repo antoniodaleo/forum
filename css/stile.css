@@ -1,0 +1,176 @@
+*{
+    margin: 0px; 
+    padding: 0px; 
+
+}
+
+.corpo_forum
+{
+    margin: 20px auto auto auto; 
+    padding: 20px; 
+    width: 1000px; 
+    font: 11px tahoma; 
+    background-color: rgb(220, 220, 220); 
+    text-align: left; 
+    border: 1px solid black; 
+    border-radius: 1opx; 
+}
+
+.rodape
+{
+    margin: 3px auto auto auto; 
+    padding: 20px ; 
+    background-color: black; 
+    color: white; 
+    font: 0.7em tahoma; 
+    text-align: center; 
+    border: 1px solid black; 
+    border-radius: 10px; 
+    width: 1000px; 
+}
+
+.form_login, .form_signup
+{
+    width: 400px; 
+    border: 1px solid black; 
+    margin: 20px auto 20px auto;
+    padding: 20px; 
+    text-align: left; 
+
+}
+
+
+.error
+{
+    border: 1px solid black;
+    margin: 20px auto 20px auto; 
+    color: red; 
+    font: 12px bold tahoma; 
+    text-align: center; 
+}
+
+input[type="submit"]
+{
+    width: 120px; 
+    padding: 3px; 
+
+}
+
+.paragrafo{
+    color: red; 
+}
+
+.novo_registro_successo {
+    color: green; 
+    text-align: center; 
+    border: 1px solid black; 
+    margin: 10px auto 10px auto; 
+    padding: 5px; 
+    border-radius: 5px; 
+
+}
+
+.login_sucesso{
+    color: green; 
+    text-align: center; 
+    border: 1px solid black; 
+    margin: 10px auto 10px auto; 
+    padding: 5px; 
+    border-radius: 5px; 
+
+}
+.mensagem
+{
+    width: 400px; 
+    border: 1px solid black; 
+    margin: 30px auto 30px auto; 
+    text-align: center; 
+    color: green; 
+}
+
+.dados_utilizador
+{
+    margin: 5px; 
+    padding: 5px; 
+    border: 1px solid black; 
+    border-radius: 5px; 
+}
+
+.dados_utilizador img
+{
+    width: 30px; 
+    height: 30px;
+}
+
+.dados_utilizador span
+{
+    font-weight: bold; 
+    font-size: 10px; 
+    margin-left: 5px; 
+}
+
+.post{
+    border: 2px groove rgb(220, 220, 220); 
+    border-radius: 5px; 
+    margin: 5px; 
+    padding: 20px; 
+    background-color: rgb(230, 230, 230); 
+
+}
+
+.post img{
+    width: 30px;
+    height: 30px; 
+
+}
+.post #post_username{
+    margin-left: 10px; 
+    font: bold 14px tahoma ; 
+
+}
+.post #post_titulo{
+    margin-left: 20px; 
+    font: bold 16px tahoma; 
+    color: rgb(100,100,100);
+
+}
+
+.post #post_mensagem{
+    padding: 10px 0px 10px 50px; 
+    font: 12px tahoma; 
+
+}
+.post #post_data{
+    font-size: 10px; 
+    color: rgb(150,150,150); 
+    font-family: tahoma; 
+    text-align: right;
+
+}
+.novo_post{
+    background-color: black; 
+    color: white; 
+    text-align: right; 
+    padding: 5px; 
+    margin: 5px; 
+    border-radius: 5px; 
+
+}
+
+.novo_post a:link{color: white; text-decoration: none};
+.novo_post a:visited{color: white; text-decoration: none};
+.novo_post a:active{color: white; text-decoration: none};
+.novo_post a:hover{color: yellow; text-decoration: none};
+
+.form_post{
+    width: 700px; 
+    border: 1px solid black; 
+    margin: 20px auto 20px auto;
+    text-align: left;
+}
+
+#id_post{
+    margin-left: 10px; 
+    color: rgb(150, 150, 150);   
+}
+
