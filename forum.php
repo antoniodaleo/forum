@@ -5,13 +5,14 @@
     if(!isset($_SESSION['users']))
     {
         include 'cabecalho.php'; 
-        echo '<div class="error">Náo tem permissão para ver o conteud do forum.<br><br></div>
+        echo '<div class="error">Náo tem permissão para ver o conteudo do forum.<br><br></div>
             <a href="index.php">Voltar</a>'; 
-        include 'rodape.php'; 
+        include 'rodape.php';
+        // Exit per uscire dal cilclo senza esecutare tutto il codice 
         exit;
     }
     //-------------------------------------------------
-
+    
     include 'cabecalho.php';
     //-------------------------------------------------
     // Dados do utilizador que esta logado
@@ -21,7 +22,7 @@
         </div>';
 
     //Novo post----------------------------------------------------
-    echo '<div class="novo_post"><a href="editor_post.php">Novo post</a>  </div>'; 
+    echo '<div class="novo_post"><a href="editor_post.php">Novo post</a> </div>'; 
 
 
     //-------------------------------------------------
@@ -35,7 +36,7 @@
 
     $robo = $conn->prepare($sql); 
     $robo-> execute();  
-
+    // Chiudi la connessione
     $conn = null ; 
 
     if($robo->rowCount()==0)
